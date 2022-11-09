@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+    <title>..:: J F K Turismo ::..</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">JFK Turismo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(Página atual)</span></a>
+            </li> 
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Pacotes
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="pacote1.html">Pacote 1</a>
+                <a class="dropdown-item" href="pacote2.html">Pacote 2</a>
+                <a class="dropdown-item" href="pacote3.html">Pacote 3</a>
+                <a class="dropdown-item" href="pacote4.html">Pacote 4</a>
+                <a class="dropdown-item" href="pacote5.html">Pacote 5</a>
+                <a class="dropdown-item" href="pacote6.html">Pacote 6</a>
+               
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Minha Conta</a>
+            </li>          
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contato</a>
+            </li>
+           
+          </ul>
+        </div>
+      </nav>
+
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                   
+                    <div class="info">                       
+                      <h1><strong>INFORMAÇÕES DE PAGAMENTO</strong></h1>
+                        <h3>Pacote para *LOCAL*, 7 dias e 6 noites.</h3>                        
+                        <h3>Passagem aérea de ida e volta.</h3>                        
+                        
+                        <h3> R$ #####</h3>
+                        <div class="form-group ">
+                          <label for="inputEstado"><b>Condições: </b></label>
+                          <select id="inputEstado" class="form-control">
+                            <option>À vista</option>
+                            <option>3 vezes</option>
+                            <option>6 vezes</option>
+                            <option>9 vezes</option>
+                            <option>12 vezes</option>
+                          </select>
+                        </div>                                             
+                    </div>   
+                    <div>
+                      <form method="get" action="finalizar.html">
+                        <div class="form-group">
+                          <label for="ida"><strong>Data de ida</strong></label>
+                          <input type="date" class="form-control" id="ida" aria-describedby="emailHelp" placeholder="">
+                        </div>
+                        <div class="form-group">
+                          <label for="volta"><strong>Data de volta</strong></label>
+                          <input type="date" class="form-control" id="volta" aria-describedby="emailHelp" placeholder="">
+                        </div> 
+                                           
+                        
+                        <div class="form-group">
+                          <label for="cartao"><strong>Cartão de Crédito</strong></label>
+                          <input type="text" class="form-control" id="cartao" aria-describedby="emailHelp" placeholder="Apenas números">
+                        </div> 
+
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="opcao2">
+                          <label class="form-check-label" for="inlineRadio2">American Express </label>
+                        </div>
+                          
+                        
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="opcao2">
+                          <label class="form-check-label" for="inlineRadio2">Mastercard        </label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="opcao1">
+                          <label class="form-check-label" for="inlineRadio1">Visa             </label>
+                        </div>
+                        <div>
+                        <button type="submit" class="btn btn-primary">Finalizar</button>
+                      </div>
+                      </form>
+                    </div>
+                                 
+                    
+                </div>
+                
+                <div class="col-md-6 ">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner grid">
+                          <div class="carousel-item active">
+                            <img class="d-block w-100" src="img/img7.jpg" alt="Primeiro Slide">
+                          </div>
+                          <div class="carousel-item grid">
+                            <img class="d-block w-100" src="img/img9.jpg" alt="Segundo Slide">
+                          </div>
+                          <div class="carousel-item grid">
+                            <img class="d-block w-100" src="img/img10.jpg" alt="Terceiro Slide">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Anterior</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Próximo</span>
+                        </a>
+                      </div>
+                </div>
+            </div>
+        </div>
+      
+
+    </section>
+      
+
+    <section>
+
+    </section>
+
+    <footer>
+      Todos os direitos reservados   
+    </footer>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
